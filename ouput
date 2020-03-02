@@ -1,0 +1,52 @@
+cc hanoi.c
+./a.out 3
+initially
+1	
+2	
+3	
+aux:
+destination:
+temp:
+Move 1
+Source:2	3	
+Aux:
+Destination:1	
+Temp:
+
+Move 2
+Source:3	
+Aux:2	
+Destination:1	
+Temp:
+
+Move 3
+Source:3	
+Aux:1	2	
+Destination:
+Temp:
+
+Move 4
+Source:
+Aux:1	2	
+Destination:3	
+Temp:
+
+Move 5
+Source:
+Aux:2	
+Destination:3	
+Temp:1	
+
+Move 6
+Source:
+Aux:
+Destination:2	3	
+Temp:1	
+
+Move 7
+Source:
+Aux:
+Destination:1	2	3	
+Temp:
+
+
